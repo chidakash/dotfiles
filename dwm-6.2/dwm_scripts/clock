@@ -1,0 +1,8 @@
+#!/bin/bash 
+
+dte="$(date +"%a, %B %d")"
+time="$(date +"%H:%M")"
+printf " %s | %s" "$dte | $time"
+
+
+

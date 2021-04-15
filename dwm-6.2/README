@@ -1,0 +1,19 @@
+Installaation:
+    sudo cp config.def.h config.h
+    sudo make clean install
+Uninstall:  
+    sudo make uninstall
+Tips:
+    Make the scripts and autostart executable
+    Install libxft-bgra to display emojis properely in the bar
+Dependencies:
+    dunst 
+    flameshot 
+    joypixels 
+    font-awesome
+    cantrell-font
+    alsa
+    pulseaudio
+    xorg-xbacklight
+    xorg-xsetroot
+    
